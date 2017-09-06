@@ -26,5 +26,5 @@ style: {
 	}
 	});
 
-	bar.animate(0.8);  // Number from 0.0 to 1.0
+	bar.animate(0.3);  // Number from 0.0 to 1.0
 }); 

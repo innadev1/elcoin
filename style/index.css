@@ -3,6 +3,7 @@ body{
     overflow-x: hidden;
 	font-family: "Poppins", sans-serif;
 }
+/*
 #products{
 	
 }
@@ -15,10 +16,6 @@ body{
     margin: 0;
     padding: 0;
     margin-top: 4vw;
-}
-#loading{
-	height: 30vw;
-	background-color: #eff6f7;
 }
 .circle {
 	width: 35vw;
@@ -85,7 +82,13 @@ body{
     right: 0;
     margin-right: 22vw;
 }
+*/
+
 /*Progressbar*/
+#loading{
+	height: 30vw;
+	background-color: #eff6f7;
+}
 #container {
 	margin: 20px;
 	width: 60%;
@@ -103,6 +106,91 @@ body{
 .progress_bar h4{
 	font-size: 1.5vw;
 	font-weight: 500;
+}
+
+/*round bar*/
+#products{
+	height: 1000px;
+	position: relative;
+}
+#products h1{
+	font-size: 2.5vw;
+    font-family: "Poppins";
+    color: rgb(2, 0, 0);
+    font-weight: 600;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    margin-top: 4vw;
+	position: relative;
+}
+.card{
+	position: absolute;
+    left: 150px;
+    right: 150px;
+    top: 225px;
+    bottom: 225px;
+}
+.card img{
+	width: 450px;
+	height: 275px;
+}
+.text{
+	z-index: 2;
+    position: absolute;
+    width: 220px;
+    background-color: white;
+    padding: 40px;
+}
+.text1 h2, .text2 h2, .text3 h2, .text4 h2, .text5 h2{
+	font-size: 16px;
+	font-family: "Poppins";
+	color: rgb(8, 92, 104);
+	font-weight: bold;
+	margin: 0;
+}
+.text1 p, .text2 p, .text3 p, .text4 p, .text5 p{
+	font-size: 12px;
+	font-family: "Poppins";
+	color: rgb(0, 0, 0);
+	margin: 0;
+	padding: 0;
+    line-height: 1.2vw;
+}
+.text1{
+	margin-top: -91px;
+    margin-left: 169px;
+}
+.text2{
+	margin-top: 170px;
+    left: 0;
+    margin-left: -168px;
+}
+.text3{
+	margin-top: 170px;
+    right: 0;
+    margin-right: -172px;
+}
+.text4{
+	margin-top: 558px;
+    left: 0;
+    margin-left: -76px;
+}
+.text5{
+	margin-top: 593px;
+    right: 0;
+    margin-right: -33px;
+}
+.circular-progress-bar {
+	position: relative;
+	left:0;
+	right:0;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 100px;
+}
+.progress-percentage{
+	display:none;
 }
 
 
