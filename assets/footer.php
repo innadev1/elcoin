@@ -14,7 +14,7 @@
         $emailErr = '';
 
         if($row['email']==$email) {
-            $emailError = "Электронная почта уже существует!".$row['email'];
+            $emailError = "Your e-mails are already there!".$row['email'];
             $trueError = true;
             $emailErr = 'emailErr'.$row['email'];
 
@@ -30,10 +30,10 @@
 			if(isset($emailError)){
 				// alert ($emailError);
 
-				echo "<script>alert(' Электронная почта уже существует!');</script>";
+				echo "<script>alert(' Your e-mails are already there!');</script>";
 			}else{
 
-				echo "<script>alert('Ваша электронная почта  успешно зарегистрирована!');</script>";
+				echo "<script>alert('Your email is registered!');</script>";
 
 			}
 						
@@ -76,7 +76,7 @@
 	</div>
 
 	<form action="index.php" method="post" name ="subForm">
-    	<input class="footer_input" type="text" name="email" placeholder="Ваш эмейл"></input>
+    	<input class="footer_input" type="text" name="email" placeholder="Email"></input>
 		<!-- <button class="subscribe"> -->
 			<input class="footer_button" type="submit" name="sent" value="sent"></input>
 		<!-- </button> -->
