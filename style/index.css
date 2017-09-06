@@ -155,7 +155,7 @@ body{
 	color: rgb(0, 0, 0);
 	margin: 0;
 	padding: 0;
-    line-height: 1.2vw;
+    line-height: 18px;
 }
 .text1{
 	margin-top: -91px;
@@ -195,4 +195,70 @@ body{
 
 
 @media screen and (max-width: 900px){
+#products {
+    height: 360px;
+}
+.container{
+	zoom: 0.3;
+    -moz-transform: scale(0.3);
+}
+.card {
+    position: absolute;
+    left: 185px;
+    right: 185px;
+    top: 250px;
+    bottom: 250px;
+}
+.card img {
+    width: 379px;
+    height: 235px;
+}
+.text {
+    z-index: 2;
+    position: absolute;
+    width: 374px;
+    background-color: transparent;
+    padding: 0;
+}
+.text1 h2, .text2 h2, .text3 h2, .text4 h2, .text5 h2 {
+    font-size: 35px;
+}
+.text1 p, .text2 p, .text3 p, .text4 p, .text5 p {
+    font-size: 28px;
+    line-height: unset;
+}
+.text1 {
+    margin-left: 220px;
+}
+.text3 {
+    margin-right: -238px;
+}
+.text5 {
+    margin-top: 590px;
+    margin-right: -121px;
+}
+.text4 {
+    margin-top: 590px;
+    left: 0;
+    margin-left: -65px;
+}
+.progress_bar {
+    padding-top: 8vw;
+    font-size: 5vw;
+}
+#container {
+    margin: 20px;
+    width: 96%;
+    height: 10px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.progressbar-text{
+	margin: -9vw !important;
+}
+.progress_bar h4 {
+    font-size: 3vw;
+}
+.my-progress-bar canvas{display:none;}
+
 }

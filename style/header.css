@@ -72,3 +72,39 @@ a{
     top: 17vw;
     left: 10vw;
 }
+
+@media screen and (max-width: 900px){
+#banner {
+    height: 115vw;
+    background-position: 70%;
+}
+#logo {
+    top: 2vw;
+}
+#logo img {
+    width: 20%;
+}
+.information {
+    font-size: 3vw;
+    top: -2vw;
+}
+.information li {
+    margin-right: 3vw;
+}
+.banner_info {
+    top: 80vw;
+    left: 5vw;
+}
+#banner h1 {
+    font-size: 5vw;
+    text-shadow: 1px 1px 2px black;
+}
+#banner h2 {
+    font-size: 5vw;
+    text-shadow: 1px 1px 2px black;
+}
+#products h1 {
+    font-size: 5.5vw;
+}
+
+}

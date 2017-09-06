@@ -71,5 +71,25 @@
 
 
 @media screen and (max-width: 900px){
+#footer h1 {
+    font-size: 5.5vw;
+}
+#footer table {
+    width: 30vw;
+}
+#footer table th img {
+    width: 15vw;
+}
+#footer table p {
+    font-size: 3vw;
+}
+.footer_input, .footer_button {
+    font-size: 4.5vw;
+}
+.socials div img {
+    width: 8.5vw;
+    padding: 5vw;
+}
+
 
 }
