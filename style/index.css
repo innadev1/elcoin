@@ -85,7 +85,25 @@ body{
     right: 0;
     margin-right: 22vw;
 }
-
+/*Progressbar*/
+#container {
+	margin: 20px;
+	width: 60%;
+	height: 8px;
+	margin-left: 20%;
+	margin-right: 20%;
+	position: relative;
+}
+.progress_bar{
+	padding-top: 12vw;
+	text-align: center;
+	color: #2aa0c1;
+	font-size: 2vw;
+}
+.progress_bar h4{
+	font-size: 1.5vw;
+	font-weight: 500;
+}
 
 
 @media screen and (max-width: 900px){

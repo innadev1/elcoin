@@ -7,6 +7,7 @@
 		
 		<script type="text/javascript" src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
 		<script type="text/javascript" src="js/index.js"></script>
+		<script src="js/progressbar.js"></script>
 
     </head>
 
@@ -48,7 +49,12 @@
 			</div>
 			
 			<div id="loading">
-				<img src="img/loading.png" style="text-align: center; width: 60%; margin-top: 10vw; margin-left: 20vw; margin-right: 20vw;">
+
+				<div class="progress_bar">
+					<div id="container"></div>
+					<h4>Product launch - June, 2018</h4>
+				</div>
+				
 			</div>
 			
 			<?php include 'assets/footer.php'; ?>

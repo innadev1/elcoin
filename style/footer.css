@@ -40,18 +40,29 @@
     display: flex;
     justify-content: center;
 }
-.subscribe{
+.footer_button{
 	border-radius: 0.5vw;
     background-color: rgb(0, 174, 239);
     color: rgba(255,255,255,1);
     font-size: 1.5vw;
-    border: none;
+    border: 1px solid rgb(0, 174, 239);
     height: auto;
     width: auto;
     padding: 0.3vw 3.3vw;
     opacity: 0.9;
     cursor: pointer;
-	margin-top: 2vw;
+	margin-top: 3vw;
+}
+.footer_input{
+	border-radius: 0.5vw;
+    border: 1px solid rgb(0, 174, 239);
+    color: black;
+    font-size: 1.5vw;
+    height: auto;
+    width: auto;
+    padding: 0.3vw 1vw;
+    opacity: 0.9;
+    margin-top: 3vw;
 }
 .socials div img{
 	width: 2.5vw;
