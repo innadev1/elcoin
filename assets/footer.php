@@ -30,11 +30,12 @@
 		</table>
 	</div>
 
+	<div><button class="subscribe">Subscribe</button></div>
+	
 	<div class="socials">
 		<div><img src="img/twitter.png"></div>
 		<div><img src="img/instagram.png"></div>
 		<div><img src="img/facebook.png"></div>
-		<div><button>Subscribe</button></div>
 	</div>
 	
 </div>
