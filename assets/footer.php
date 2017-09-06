@@ -1,3 +1,48 @@
+<?php
+	include ('assets/connect.php');
+	include ('assets/function.php');
+
+    if(isset($_POST['sent']))
+    {
+
+        $email = $_POST['email'];
+
+        $row = getDataFromDatabase("SELECT email FROM emails WHERE email=:email", [ 
+            'email' => $email,
+        ]);
+
+        $emailErr = '';
+
+        if($row['email']==$email) {
+            $emailError = "Электронная почта уже существует!".$row['email'];
+            $trueError = true;
+            $emailErr = 'emailErr'.$row['email'];
+
+        }else{
+
+            $sql = "INSERT INTO emails (email) VALUES(:email)";
+    
+            $row = insertDataInToDataBase($sql, [
+            'email' => $email
+            ]);
+        }
+						
+			if(isset($emailError)){
+				// alert ($emailError);
+
+				echo "<script>alert(' Электронная почта уже существует!');</script>";
+			}else{
+
+				echo "<script>alert('Ваша электронная почта  успешно зарегистрирована!');</script>";
+
+			}
+						
+    	}else{
+
+	}
+?>
+
+
 <link rel="stylesheet" type="text/css" href="style/footer.css">
 
 <div id="footer">
@@ -30,8 +75,13 @@
 		</table>
 	</div>
 
-	<div><button class="subscribe">Subscribe</button></div>
-	
+	<form action="index.php" method="post" name ="subForm">
+    	<input class="footer_input" type="text" name="email" placeholder="Ваш эмейл"></input>
+		<!-- <button class="subscribe"> -->
+			<input class="footer_button" type="submit" name="sent" value="sent"></input>
+		<!-- </button> -->
+	</form>
+
 	<div class="socials">
 		<div><img src="img/twitter.png"></div>
 		<div><img src="img/instagram.png"></div>

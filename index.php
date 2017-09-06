@@ -52,7 +52,7 @@
 			</div>
 			
 			<?php include 'assets/footer.php'; ?>
-			
+
 		</div>
 	</body>
 </html>
