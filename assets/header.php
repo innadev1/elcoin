@@ -15,6 +15,6 @@
 <div id="banner">
 	<div class="banner_info">
 		<h1>The website bank</h1>
-		<h2>See all bank accounts in<br>you're computer and phone</h2>
+		<h2>See all bank accounts in<br>your computer and phone</h2>
 	</div>
 </div>
