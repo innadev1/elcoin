@@ -139,7 +139,7 @@ body{
 	z-index: 2;
     position: absolute;
     width: 220px;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     padding: 40px;
 }
 .text1 h2, .text2 h2, .text3 h2, .text4 h2, .text5 h2{
@@ -193,6 +193,16 @@ body{
 	display:none;
 }
 
+@media screen and (max-width: 1200px){
+.container{
+	zoom: 0.7;
+    -moz-transform: scale(0.7);
+}
+#products {
+    height: 700px;
+    position: relative;
+}
+}
 
 @media screen and (max-width: 900px){
 #products {
