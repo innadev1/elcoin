@@ -109,6 +109,10 @@ body{
 }
 
 /*round bar*/
+.my-progress-bar {
+	width: 750px;
+	height: 750px;
+}
 #products{
 	height: 1000px;
 	position: relative;
@@ -269,6 +273,7 @@ body{
 .progress_bar h4 {
     font-size: 3vw;
 }
+
 .my-progress-bar canvas{display:none;}
 
 }
