@@ -5,8 +5,8 @@
 	<div id="logo"><img src="img/logo.png"></div>
 	<div class="information">
 		<ul>
-			<li><a href="#">Products</a></li>
-			<li><a href="#">Contacts</a></li>
+			<li><a href="#products">Products</a></li>
+			<li><a href="#footer">Contacts</a></li>
 			<li><a href="#">Europe | Asia</a></li>
 		</ul>
 	</div>

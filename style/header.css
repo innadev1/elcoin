@@ -8,16 +8,16 @@ a{
 	margin: 0;
 }
 #information{
-	height: 7.6vw;
+	/* height: 7.6vw; */
     position: fixed;
     z-index: 3;
     width: 100%;
     background-color: white;
-	margin-top: -7.6vw;
+    /* margin-top: -7.6vw; */
 }
 #logo{
 	position: relative;
-    top: 3vw;
+    top: 1.5vw;
     left: 3vw;
 }
 #logo img{
@@ -25,13 +25,13 @@ a{
 }
 .information{
 	position: relative;
-	text-align: right;
+    text-align: right;
     font-size: 1vw;
     padding-right: 5vw;
-	font-family: "Poppins", sans-serif;
-	color: rgb(53, 52, 52);
-	padding-bottom: 4vw;
-    top: 1.5vw;
+    font-family: "Poppins", sans-serif;
+    color: rgb(53, 52, 52);
+    padding-bottom: 1.5vw;
+    /* top: 1.5vw; */
 }
 .information li{
 	display: inline;
@@ -44,8 +44,8 @@ a{
 }
 
 #banner{
-	margin-top: 7.6vw;
-	height: 40vw;
+	/* margin-top: 7.6vw; */
+    height: 40vw;
     background-image: url(../img/background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -73,20 +73,29 @@ a{
     left: 10vw;
 }
 
+@media screen and (min-width: 1800px){
+#logo img {
+    width: 7%;
+}
+#products h1 {
+	font-size: 2em;
+}
+}
+
 @media screen and (max-width: 900px){
 #banner {
     height: 115vw;
     background-position: 70%;
 }
 #logo {
-    top: 2vw;
+    top: 2.5vw;
 }
 #logo img {
     width: 20%;
 }
 .information {
     font-size: 3vw;
-    top: -2vw;
+    top: -1.5vw;
 }
 .information li {
     margin-right: 3vw;
