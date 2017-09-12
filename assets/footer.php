@@ -65,23 +65,30 @@
 				<td><p><!--Jumtinas 148, Riga, Latvia--> 8-10 Grosvenor Gardens, London, England, SW1 W0DH</p></td>
 			</tr>
 		</table>
+		<!--
 		<table>
 			<tr>
 				<th><img src="img/phone.png"></th>
 			</tr>
 			<tr>
-				<td><p><!--+371 223 12342--> 10755607</p></td>
+				<td><p>+371 223 12342 10755607</p></td>
 			</tr>
-		</table>
+		</table>-->
 	</div>
 
 	<form action="index.php" method="post" name ="subForm">
     	<input class="footer_input" type="text" name="email" placeholder="Email"></input>
 		<!-- <button class="subscribe"> -->
-			<input class="footer_button" type="submit" name="sent" value="sent"></input>
+			<input class="footer_button" type="submit" name="sent" value="send"></input>
 		<!-- </button> -->
 	</form>
 
+	<div class="rights">
+		<p> ELCOIN LTD. All rights reserved</p>
+		<p>designed by Vinille Büro</p>
+		<img src="img/vinille.png">
+		</div>
+	
 	<div class="socials">
 		<div><img src="img/twitter.png"></div>
 		<div><img src="img/instagram.png"></div>
