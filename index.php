@@ -22,39 +22,6 @@
 			<div id="products">
 				
 				<h1>Products and Service</h1>
-				
-				<!--
-				<div class="text text1">
-					<h2>P2P</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
-				</div>
-
-				<div class="text text2">
-					<h2>Payment Card</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
-				</div>
-
-				<div class="text text3">
-					<h2>Business Accounts</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
-				</div>
-
-				<div class="text text4">
-					<h2>Smart Transfers</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
-				</div>
-
-				<div class="text text5">
-					<h2>Mobile Access to Bank accounts</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
-				</div>
-				
-				<div class="circle">
-					<div class="card"><img src="img/card.png"></div>
-				</div>
-				-->
-				
-				
 
 				<div class="container">
 					<div class="row">
@@ -64,27 +31,27 @@
 								
 								<div class="text text1">
 									<h2>P2P</h2>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+									<p>Fast and easy payments to your Elcoin friends <br> Instant Payments within Elcoin Community</p>
 								</div>
 
 								<div class="text text2">
 									<h2>Payment Card</h2>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+									<p>Want to have some plastic? Order your Elcoin card now! <br> Ready to use your personal Elcoin prepaid card</p>
 								</div>
 
 								<div class="text text3">
-									<h2>Business Accounts</h2>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+									<h2>Multi-currency Elcoin Accounts</h2>
+									<p>Store your coins in multiple currencies <br> Live FX Rates and over X World Currencies</p>
 								</div>
 
 								<div class="text text4">
 									<h2>Smart Transfers</h2>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+									<p>Transfer funds to any person or business within UK and EU</p>
 								</div>
 
 								<div class="text text5">
-									<h2>Mobile Access to Bank accounts</h2>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+									<h2>Mobile banking</h2>
+									<p>Convenient access to your Elcoin account anywhere you need it most</p>
 								</div>
 							
 							</div>
