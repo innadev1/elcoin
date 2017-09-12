@@ -54,7 +54,7 @@
 				<th><img src="img/mail.png"></th>
 			</tr>
 			<tr>
-				<td><p>info@elcoin.com</p></td>
+				<td><p><!--info@elcoin.com--> info@elcoin.co.uk</p></td>
 			</tr>
 		</table>
 		<table>
@@ -62,7 +62,7 @@
 				<th><img src="img/map.png"></th>
 			</tr>
 			<tr>
-				<td><p>Jumtinas 148, Riga, Latvia</p></td>
+				<td><p><!--Jumtinas 148, Riga, Latvia--> 8-10 Grosvenor Gardens, London, England, SW1 W0DH</p></td>
 			</tr>
 		</table>
 		<table>
@@ -70,7 +70,7 @@
 				<th><img src="img/phone.png"></th>
 			</tr>
 			<tr>
-				<td><p>+371 223 12342</p></td>
+				<td><p><!--+371 223 12342--> 10755607</p></td>
 			</tr>
 		</table>
 	</div>
