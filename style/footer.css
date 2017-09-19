@@ -77,10 +77,11 @@
     color: rgb(1, 0, 0);
     margin: 0;
     padding: 0;
-    font-weight: 600;
+    font-weight: 400;
+    line-height: 3vw;
 }
 .rights img{
-	width: 10vw;
+	width: 2vw;
     padding-top: 1vw;
 }
 
